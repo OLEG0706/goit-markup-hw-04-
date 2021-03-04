@@ -9,11 +9,12 @@
     --primary-background-color: #ffffff;
     --secondary-background-color: #2f303a;
     --card-set-gap: 30px;
-    --current: #d11b1b;
+    --current:#2196f3;
     --tertiary-background-color: #f5f4fa;
     --tertiary-text-color: #ffffff;
     --icon-color: #afb1b8;
     --accent-icon-color: #ffffff;
+    --currentColor:#afb1b8;
     }
 
 h1,h2,.h3,h4,h5,h6{
@@ -247,10 +248,8 @@ ul{
 
         /* description of work */
 
-    .about{
-        padding-top: 94px;
-        padding-bottom: 94px;
-    }
+    
+    
     .button-filter:hover,
     .button-filter:focus{
      color: var(--primary-background-color);
@@ -313,7 +312,7 @@ ul{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-text-color);
-    margin-top: 10px;
+    margin-bottom: 10px;
     }
     .about-list-item:not(:last-child){
        margin-right:  var(--card-set-gap);
@@ -354,6 +353,10 @@ ul{
     color: var(--primary-text-color);
     margin-bottom: 50px;
     text-align: center;
+    }
+
+    .gallery .container {
+    padding-bottom: 94px;
     }
     
         /* our team */
@@ -415,21 +418,18 @@ ul{
     align-items: center;
     width: 44px;
     height: 44px;
-    background-color: var(--primary-background-color);
     border-radius: 50%;
     margin-right: 10px;
     }
+    
 
     .social-list-link:hover,
     .social-list-link:focus{
          background-color: var(--accent-color);
-         
+         color:var(--tertiary-text-color);
     }
 
-    .social-list-icon:hover,
-    .social-list-icon:focus{
-        fill: var(--tertiary-text-color);
-    }
+    
     
     .teams-persons, .persons-job {
     font-weight: 500;
@@ -446,13 +446,11 @@ ul{
     margin-top: 10px;
     }
 
-    .social-list-icon {
+  .social-list-icon {
     width: 20px;
     height: 20px;
-    fill: var(--icon-color);
-    }
-
-  
+        fill:currentColor
+}
 
     .clients{
     
@@ -602,6 +600,7 @@ h3 {
     height: 44px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
+    
 }
 
 .dark-list-link:hover,
