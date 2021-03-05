@@ -420,13 +420,14 @@ ul{
     height: 44px;
     border-radius: 50%;
     margin-right: 10px;
+    color: var(--icon-color);
     }
     
 
     .social-list-link:hover,
     .social-list-link:focus{
          background-color: var(--accent-color);
-         color:var(--tertiary-text-color);
+         color: var(--tertiary-text-color);
     }
 
     
@@ -449,7 +450,7 @@ ul{
   .social-list-icon {
     width: 20px;
     height: 20px;
-        fill:currentColor
+    fill: currentColor;
 }
 
     .clients{
